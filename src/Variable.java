@@ -1,7 +1,7 @@
 public class Variable {
     public static void main(String[] args) {
         //Les variables/fonctions en Java sont en camelCase
-        //Les classes vont être enn PascalCase
+        //Les classes vont être en PascalCase
 
         //Les entiers
 
