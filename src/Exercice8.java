@@ -11,6 +11,7 @@ public class Exercice8 {
 
         System.out.print("c= ");
         float c= input.nextFloat();
+
         double discriminant=(Math.pow(b,2)-4*a*c);
 
         if(a==0){
@@ -18,14 +19,14 @@ public class Exercice8 {
         } else {
 
             if (discriminant < 0) {
-                System.out.println("L'equation n'a pas de solution relle.");
+                System.out.println("L'equation n'a pas de solution reelle.");
             } if (discriminant == 0) {
                 float x0=(float)((-b) / (2 * a));
                 System.out.println("L'equation a une solution unique :"+x0+"");
             } else {
-                float x1=(float)(-b - (Math.sqrt(discriminant)) / (2 * a));
+                float x1=(float)((-b - (Math.sqrt(discriminant))) / (2 * a));
                 x1=Math.round(x1);
-                float x2=(float)(-b + (Math.sqrt(discriminant)) / (2 * a));
+                float x2=(float) (((-b) + (Math.sqrt(discriminant))) / (2 * a));
                 x2=Math.round(x2);
                 System.out.println("L'equation a deux solutions relles distinctes : "+x1+" et "+x2+"");
             }
