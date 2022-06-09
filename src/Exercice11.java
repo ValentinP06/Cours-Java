@@ -11,7 +11,7 @@ public class Exercice11 {
         {
         fact=fact*i;
         }
-        System.out.printf("ma factorielle est"+fact);
+        System.out.printf("ma factorielle est %d", fact);
 
     }
 }

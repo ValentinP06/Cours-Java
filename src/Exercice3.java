@@ -13,7 +13,8 @@ public class Exercice3 {
         System.out.print("age ?");
         byte age = sc.nextByte();
 
-        System.out.println("vous vous appelez"+nom+","+prenom+","+age+"ans");
+        //System.out.println("vous vous appelez"+nom+","+prenom+","+age+"ans");
+        System.out.printf("Vous vous appellez %s %s et vous avez %d ans", nom,prenom,age);
 
     }
 }

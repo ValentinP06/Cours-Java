@@ -11,7 +11,8 @@ public class Exercice4 {
         C=btemp;
         A=ctemp;
 
-        System.out.println(A+" "+B+" "+C );
+        //System.out.println(A+" "+B+" "+C );
+        System.out.printf("%d %d %d",A,B,C);
 
     }
 }
