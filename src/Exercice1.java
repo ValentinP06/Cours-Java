@@ -1,7 +1,7 @@
 public class Exercice1 {
     public static void main(String[] args) {
 
-        byte age=47;
+        byte age=4;
         if(age<7){
             System.out.println("trop petit");
         }else if (age<=9) {

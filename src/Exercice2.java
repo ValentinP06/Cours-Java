@@ -6,8 +6,11 @@ public class Exercice2 {
         Scanner sc= new Scanner(System.in);    //System.in is a standard input stream
         System.out.print("Valeur du diametre ");
         int diametre= sc.nextInt();
-        float Rayon=diametre/2;
+
+        double Rayon=diametre/2;
+
         double surface=Rayon*Rayon*Math.PI;
+
         System.out.println(surface);
     }
 }
