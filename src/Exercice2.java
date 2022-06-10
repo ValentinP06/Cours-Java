@@ -11,6 +11,6 @@ public class Exercice2 {
 
         double surface=Rayon*Rayon*Math.PI;
 
-        System.out.println(surface);
+        System.out.println("Ma surface est de : "+ surface);
     }
 }

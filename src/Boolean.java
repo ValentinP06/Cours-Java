@@ -1,6 +1,6 @@
 public class Boolean {
     public static void main(String[] args) {
-        byte age=12;
+        byte age=22;
         boolean estMajeur=age>=18;
 
         if(estMajeur){
