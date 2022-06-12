@@ -1,8 +1,6 @@
 import java.util.Scanner;
-
 public class Exercice5 {
     public static void main(String[] args) {
-
         /* Ecrivez un programme Age.java qui :
 declare l'âge de l'utilisateur ;
 lit la réponse de l'utilisateur et l'enregistre dans une variable age de type entier ;

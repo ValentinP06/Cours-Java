@@ -5,11 +5,13 @@ import java.util.Scanner;
 
 public class Exercice9 {
     public static void main(String[] args) {
-/*Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche le nom du mois correspondant.
+/*Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche
+ le nom du mois correspondant.
         Ex:
         Mois : 4
         Résult : Avril
-        Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur de cas(à trouver sur internet)*/
+        Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur
+         de cas(à trouver sur internet)*/
 
         byte month = -1;
         String monthStr;

@@ -16,19 +16,19 @@ public class Exercice17 {
         int tableau1;
 
         while (true) {
-            System.out.printf("tableau1: ");
+            System.out.printf("Tableau1: ");
             tableau1 = input.nextInt();
             if (tableau1 > 1){
                 break;
             }
-            System.out.println("nom > 1 obligatoire");
+            System.out.println("nom >=2 obligatoire");
         }
 
         int[] tableau = new int[tableau1];
 
         for (int i = 0; i <= tableau.length-1; i++)
         {
-            System.out.printf("ajouter nb dans tableau : ");
+            System.out.printf("Ajouter les nb dans tableau : ");
             tableau[i] = input.nextInt();
         }
 
@@ -43,9 +43,9 @@ public class Exercice17 {
         }
 
         if (compteur>0){
-            System.out.printf("nombre %d existe bel et bien et a ete trouver %d fois", nbrechercher, compteur);
+            System.out.printf("Nombre %d existe bel et bien et a ete trouver %d fois", nbrechercher, compteur);
         } else {
-            System.out.printf("nombre %d non trouvé", nbrechercher);
+            System.out.printf("Nombre %d non trouvé", nbrechercher);
         }
 
     }
