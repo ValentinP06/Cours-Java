@@ -4,13 +4,13 @@ public class Exercice17 {
     public static void main(String[] args) {
         /* Ecrire un programme Java qui demande à l'utilisateur de remplir un tableau d'entiers à partir du clavier.
            Puis le programme devra lui demander d'entrer un nombre à rechercher dans le tableau.
-        Si nombre existe, le programme lui dira que le nombre existe et le nombre de fois qu'ils se retrouve dans le tableau
+        Si nombre existe, le programme lui dira que le nombre existe et le nombre de fois qu'ils se retrouve
+        dans le tableau
         Sinon le programme lui dira que le nombre recherché n'existe pas dans le tableau
         Ex : tableau saisi à partir du clavier : 12,45,6,7,12,23,33,6,22,3,6
-->Entrer un nombre à rechercher : 6
-->6 existe et se retrouve 3 fois dans le tableau
+        ->Entrer un nombre à rechercher : 6
+        ->6 existe et se retrouve 3 fois dans le tableau
          */
-
         Scanner input = new Scanner(System.in);
 
         int tableau1;
@@ -21,14 +21,14 @@ public class Exercice17 {
             if (tableau1 > 1){
                 break;
             }
-            System.out.println("nom > 0 obligatoire");
+            System.out.println("nom > 1 obligatoire");
         }
 
         int[] tableau = new int[tableau1];
 
         for (int i = 0; i <= tableau.length-1; i++)
         {
-            System.out.printf("ajouter nb dans tableau1: ");
+            System.out.printf("ajouter nb dans tableau : ");
             tableau[i] = input.nextInt();
         }
 
@@ -36,16 +36,16 @@ public class Exercice17 {
         int nbrechercher = input.nextInt();
         int compteur = 0;
 
-        for (int i = 0; i < tableau.length; i++) {
+        for (int i = 0; i <= tableau.length-1; i++) {
             if (tableau[i] == nbrechercher){
                 compteur=compteur+1;
             }
         }
 
         if (compteur>0){
-            System.out.printf("nombre %d existe bel et bienet a ete trouver %d fois", nbrechercher, compteur);
+            System.out.printf("nombre %d existe bel et bien et a ete trouver %d fois", nbrechercher, compteur);
         } else {
-            System.out.printf("Number %d was not found in the array", nbrechercher);
+            System.out.printf("nombre %d non trouvé", nbrechercher);
         }
 
     }

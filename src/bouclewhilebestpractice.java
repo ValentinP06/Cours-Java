@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class bouclewhilebestpractice {
     public static void main(String[] args) {
+
         var input = new Scanner(System.in);
         var codePIN = "";
         System.out.println("Veuillez definir un code PIN a 4 caracteres : ");

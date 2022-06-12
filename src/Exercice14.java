@@ -1,7 +1,12 @@
 import java.util.Scanner;
 public class Exercice14 {
     public static void main(String[] args) {
-
+/* A l'exercice précédent, s'ajoute un nouveau requirement:
+Le nombre de fois que l'utilisateur peut saisir des mauvais identifiants
+est limité à 5, ensuite le programme va s'arrêter avec un message disant.
+"Vous avez saisi des mauvais identifiants x fois, votre compte est bloqué".
+Il faut dire à au user le nombre de tentatives restants
+*/
         Scanner input = new Scanner(System.in);
 
         System.out.print("Entrer email: ");

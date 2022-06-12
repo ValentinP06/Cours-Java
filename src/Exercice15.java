@@ -3,6 +3,8 @@ import java.util.regex.Pattern;
 
 public class Exercice15 {
     public static void main(String[] args) {
+        /* Ajouter une validation de type de donnees pour que le code PIN saisi ne soit compose que des chiffres*/
+
         Scanner input = new Scanner(System.in);
         String PINcode;
         String PINinput;

@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class Exercice13 {
     public static void main(String[] args) {
+/* Ecrire un programme Javascript qui permet à l'utilisateur de définir une adresse email et un mot de passe.
+Ensuite dans un second temps, il sera demandé à l'utilisateur de fournir l'email et le mot de passe:
+Si l'email et le mot de passe ne correspondent pas aux valeurs définies, le message
+"Identifiants incorrect devra s'afficher", et l'utilisateur devra recommencer la saisie des valeurs.
+*/
 
         var input = new Scanner(System.in);
         System.out.println("Veuillez definir un mail et un mot de passe : ");

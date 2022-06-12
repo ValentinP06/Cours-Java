@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Exercice3 {
     public static void main(String[] args) {
+        /*Ecrire un programme Java qui demande à l'utilisateur de saisir son nom, prenom et age,
+          et qui ensuite va afficher le message : "Vous vous appelez <prenom> <nom>, et vous avez <age> ans"
+         */
+
 
         Scanner sc= new Scanner(System.in);
         System.out.print("nom ?");

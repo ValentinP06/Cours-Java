@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class Exercice8 {
     public static void main(String[] args) {
+/* Ecrivez un programme Java qui permet de résoudre une équation du 2nd degré de la forme ax2+bx+c = 0.
+L'utilisateur devra fournir a,b,c à partir du clavier, ensuite le programme lui donnera la solution
+Principe du fonctionnement d'une équation du 2nd degré:
+*/
+
         Scanner input=new Scanner(System.in);
 
         System.out.print("a= ");
