@@ -16,12 +16,13 @@ public class Exercice17 {
         int tableau1;
 
         while (true) {
+
             System.out.printf("Tableau1: ");
             tableau1 = input.nextInt();
             if (tableau1 > 1){
                 break;
             }
-            System.out.println("nom >=2 obligatoire");
+            System.out.println("nombre >=2 obligatoire");
         }
 
         int[] tableau = new int[tableau1];
