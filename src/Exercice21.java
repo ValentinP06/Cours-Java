@@ -31,6 +31,6 @@ A partir du TP précédent, ajouter le calcul de la somme de 2 diagonales
             }
         }
 
-        System.out.printf("SOMME de la diagonale 1 est %d\nS et de la 2 est %d", SommeDiagonale1, SommeDiagonale2);
+        System.out.printf("SOMME de la diagonale 1 est : %d\nS Somme de la diagonale 2 est : %d", SommeDiagonale1, SommeDiagonale2);
     }
 }

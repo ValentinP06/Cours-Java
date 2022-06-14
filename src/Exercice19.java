@@ -33,7 +33,6 @@ C'est quoi un palindrome?: https://www.larousse.fr/dictionnaires/francais/palind
             LettreGauche=LettreGauche+1;
             LettreDroite=LettreDroite+1;
         }
-
         if (palindrome) {
             System.out.println("c'est est un palindrome" );
         } else {
