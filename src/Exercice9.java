@@ -13,17 +13,17 @@ public class Exercice9 {
         Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur
          de cas(à trouver sur internet)*/
 
-        byte month = -1;
+        byte mois = -1;
         String monthStr;
 
-        while (month < 1 || month > 12){
+        while (mois < 1 || mois > 12){
             System.out.print("Please select give a number between 1 and 12: ");
             Scanner input = new Scanner(System.in);
-            month = input.nextByte();
+            mois = input.nextByte();
         }
 
 
-        switch (month){
+        switch (mois){
             case 1:
                 monthStr = "January";
                 break;

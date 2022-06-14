@@ -29,6 +29,7 @@ Essayer de le résoudre au plus, et essayer approche basé sur le HMap.
             currentEmail = mail[i];
 
             String nomdedomaine = currentEmail.substring(currentEmail.indexOf('@'), currentEmail.length());
+
             nomDeDomainePasenDouble.add(nomdedomaine);
             if (!nomdedomainedouble.contains(nomdedomaine)) {
                 nomdedomainedouble.add(nomdedomaine);
@@ -42,6 +43,7 @@ Essayer de le résoudre au plus, et essayer approche basé sur le HMap.
         for (int i = 0; i < nomdedomainedouble.size(); i++) {
 
             String nomdedomaine = nomdedomainedouble.get(i);
+
             System.out.println((float) Collections.frequency(nomDeDomainePasenDouble, nomdedomaine) / Nombredemail);
             Pourcentage = ((float) Collections.frequency(nomDeDomainePasenDouble, nomdedomaine)) / Nombredemail * 100;
             System.out.printf("Nom de domaine  %s qui represente %s pourcent de la liste d'emails\n", nomdedomaine, Pourcentage);
