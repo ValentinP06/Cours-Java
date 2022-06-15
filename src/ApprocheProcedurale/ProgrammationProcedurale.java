@@ -1,4 +1,4 @@
-package POO;
+package ApprocheProcedurale;
 
 public class ProgrammationProcedurale {}
 /*

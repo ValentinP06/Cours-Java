@@ -1,4 +1,4 @@
-package POO;
+package ApprocheProcedurale;
 
 class ProgrammationProcedurale2 {
     // DRY : Don't repeat yourself

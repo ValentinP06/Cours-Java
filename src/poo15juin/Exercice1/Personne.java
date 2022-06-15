@@ -1,6 +1,6 @@
 package poo15juin.Exercice1;
 
-class Personne {
+public class Personne {
 
     String firstName;
     String lastName;
