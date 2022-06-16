@@ -12,7 +12,7 @@ public class Exercice9 {
         Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur
          de cas(à trouver sur internet)*/
 
-        byte mois = -1;
+        byte mois = 0;
         String monthStr;
 
         while (mois < 1 || mois > 12){

@@ -70,11 +70,8 @@ Pour les jours de la semaine et le numéros correspondant, veuillez stocker les 
                 } else {
                     System.out.println("Incorrect entry, try again");
                 }
-
             } else {
-
                 // when searching by string
-
                 System.out.printf("day to lookup: ");
                 lookupStr = input.nextLine().toUpperCase();
 
