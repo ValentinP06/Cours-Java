@@ -1,7 +1,7 @@
 package Staticmethod;
 
 import java.util.Scanner;
-
+/*
 public class Main {
     public static void main(String[] args) {
         System.out.println(Math.pow(3,2));
@@ -46,4 +46,4 @@ public class Main {
 
 // Compilation => byte code
 
-// Interpretation
+// Interpretation */
